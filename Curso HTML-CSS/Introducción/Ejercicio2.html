@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 02 - Formularios en HTML</title>
+    </head>
+    <body>
+        <form action="/" method="get">
+        <div>
+            <label for="nombreoperario">Nombre del trabajador</label>
+            <input type="text" name="nombreoperario" id="nombreoperario" required>
+        </div>
+        <br>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" min="0" max="65" required>
+        </div>
+        <br>
+        <div>
+            <label for="quotes">frase-favorita</label>
+            <textarea name="quotes" id="quotes" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+        <br>
+        <br>
+        <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
