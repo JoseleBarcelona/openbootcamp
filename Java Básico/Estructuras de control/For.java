@@ -23,21 +23,41 @@ public class For {
         int suma = 0;
         int[] numero = {10, 11, 12};
         for (int i = 0; i <numero.length; i++){
-            suma = suma + numero[i];
+            suma = suma + numero[i]; //Una manera de sumar dentro de un for
             System.out.println(suma);
 
+        }
+        int suma1 = 0;
+        int[] numero1 = {10, 11, 12};
+        for (int i = 0; i <numero1.length; i++) {
+            suma1 += numero1[i]; //Otra manera de sumar dentro de un for
+            System.out.println(suma1);
         }
         int multiplicacion = 1;
         int[] num = {10, 20, 30};
         for (int i = 0; i <num.length; i++){
-            multiplicacion = multiplicacion * num[i];
+            multiplicacion = multiplicacion * num[i]; //Una manera de multiplicar dentro de un for
             System.out.println(multiplicacion);
+        }
+
+        int multiplicacion1 = 1;
+        int[] num1 = {10, 20, 30};
+        for (int i = 0; i <num1.length; i++){
+            multiplicacion1 *= num1[i]; //Otra manera de multiplicar dentro de un for
+            System.out.println(multiplicacion1);
         }
         int resta = 0;
         int[] rest = {10, 20, 30};
         for (int i = 0; i < rest.length; i++){
-            resta = resta - rest[i];
+            resta = resta - rest[i]; //Una manera de restar dentro de un for
             System.out.println(resta);
         }
+        int resta1 = 0;
+        int[] rest1 = {10, 20, 30};
+        for (int i = 0; i < rest1.length; i++){
+            resta1 -= rest1[i]; //Otra manera de restar dentro de un for
+            System.out.println(resta1);
+        }
+
     }
 }
