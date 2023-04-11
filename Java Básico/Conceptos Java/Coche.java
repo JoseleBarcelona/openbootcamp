@@ -1,4 +1,4 @@
-package ClasesBootcamp;
+package CursosBootcamp.ConceptosJava;
 
 public class Coche {  //Clase generada como plantilla para crear objetos
 

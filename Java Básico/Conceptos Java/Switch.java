@@ -1,4 +1,4 @@
-package ClasesBootcamp;
+package CursosBootcamp.ConceptosJava;
 
 public class Switch {
 
