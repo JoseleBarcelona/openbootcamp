@@ -5,6 +5,7 @@ public class SmartWatch extends SmartDevice{
     boolean contestar = false;
 
     public SmartWatch() {
+        super();
     }
 
     public SmartWatch(String marca, String modelo, String color, int peso, double dimension, boolean contestar) {
