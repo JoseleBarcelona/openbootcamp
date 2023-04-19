@@ -25,6 +25,7 @@ public class Arrya5 {
             ultimoNombre = nombres[i];
         }
         System.out.println("\nEl último nombre del array es: " + ultimoNombre);
+        System.out.println("");
 
         int contador = 0;  //También se puede hacer con un While, pero no es lo más acertado. Para arrays es mejor bucle for
         while (contador < nombres.length){
@@ -54,4 +55,8 @@ El índice actual es 1
 El índice actual es 2
 
 El último nombre del array es: Neus
+
+Mi nombre es José y estoy posicionado en el índice: 0
+Mi nombre es Núria y estoy posicionado en el índice: 1
+Mi nombre es Neus y estoy posicionado en el índice: 2
  */
