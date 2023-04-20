@@ -26,3 +26,12 @@ class Coche{
     }
 
 }
+/*
+Código ejecutado
+
+La suma de a, b, y c es de: 30
+
+El coche tenía 4 puertas
+
+Ahora tiene 5 puertas
+ */
