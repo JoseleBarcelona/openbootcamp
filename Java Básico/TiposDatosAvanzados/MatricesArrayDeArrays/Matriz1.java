@@ -16,7 +16,7 @@ public class Matriz1 {
 
         System.out.println("");
 
-        for (int i=0; i< matriz.length; i++){  //El primer fo recorre el primer array que es de 2 índices
+        for (int i=0; i< matriz.length; i++){  //El primer for recorre el primer array que es de 2 índices
             System.out.println("El valor de i es: " + i);
             for (int j=0; j< matriz[i].length; j++){  //el segundo for recorre el segundo array que es de 4 índices
                 System.out.println("En el índice " + i + " el índice j es: " + j);
