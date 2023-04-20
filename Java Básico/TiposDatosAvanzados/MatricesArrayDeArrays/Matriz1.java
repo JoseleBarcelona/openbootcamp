@@ -16,9 +16,9 @@ public class Matriz1 {
 
         System.out.println("");
 
-        for (int i=0; i< 2; i++){  //El primer for recorre el primer array que es de 2 índices
+        for (int i=0; i< 2; i++){  //El primer for recorre el primer array que es de 2 índices o filas
             System.out.println("El valor de i es: " + i);
-            for (int j=0; j< 4; j++){  //el segundo for recorre el segundo array que es de 4 índices
+            for (int j=0; j< 4; j++){  //el segundo for recorre el segundo array que es de 4 índices o colúmnas
                 System.out.println("En el índice " + i + " el índice j es: " + j);
             }
             System.out.println("");
