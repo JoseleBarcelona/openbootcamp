@@ -53,3 +53,21 @@ public class EjercicioTema4 {
         }
     }
 }
+/*
+Código ejecutado
+
+El número es 0
+
+0
+1
+2
+
+5
+
+0
+1
+2
+3
+
+Es verano
+ */
