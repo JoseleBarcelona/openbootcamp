@@ -19,3 +19,10 @@ public class TryCatch1 {
         return resultado;
     }
 }
+/*
+Código ejecutado
+
+Esto es una excepción del tipo: class java.lang.ArithmeticException
+Programa terminado
+
+ */

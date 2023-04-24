@@ -29,3 +29,16 @@ class AgeException extends Exception{ //Heredamos de la clase java Exception
         super(message); //el mensaje se le envía al constructor de la clase java Exception
     }
 }
+/*
+Código ejecutado
+
+Enter your age:
+17
+A problem occured: CursosBootcamp.JavaBasico.TiposDatosAvanzados.TryCatchThrows.AgeException:
+You must be 18+ to sing up
+
+Enter your age:
+18
+You are now signed up!
+
+ */

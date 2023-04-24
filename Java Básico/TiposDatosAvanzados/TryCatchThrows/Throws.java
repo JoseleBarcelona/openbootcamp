@@ -35,3 +35,12 @@ class Cuenta{
         return saldo;
     }
 }
+/*Código ejecutado
+
+El saldo depositado es de: 100.0
+La cantidad a retirar supera el saldo disponible, elija una cantidad inferior
+El tipo de excepción es : class java.lang.Exception
+java.lang.Exception: No hay fondos suficientes
+	at CursosBootcamp.JavaBasico.TiposDatosAvanzados.TryCatchThrows.Cuenta.retirar(Throws.java:32)
+	at CursosBootcamp.JavaBasico.TiposDatosAvanzados.TryCatchThrows.Throws.main(Throws.java:9)
+ */
