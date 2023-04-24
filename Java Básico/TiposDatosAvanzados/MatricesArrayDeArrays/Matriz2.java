@@ -13,3 +13,8 @@ public class Matriz2 {
 
     }
 }
+/*Código ejecutado
+
+Jose, pepe, Juan
+Lola, Antonia, Federica
+ */
