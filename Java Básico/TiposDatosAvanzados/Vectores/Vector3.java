@@ -17,3 +17,8 @@ public class Vector3 {
     }
 
 }
+/*Código ejecutado
+
+true
+
+ */
