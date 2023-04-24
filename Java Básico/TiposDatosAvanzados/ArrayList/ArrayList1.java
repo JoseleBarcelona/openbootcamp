@@ -29,3 +29,10 @@ public class ArrayList1 {
         }
     }
 }
+/*código ejecutado
+
+[H, o, l, a, Amor]
+[H, o, l, a]
+Hola
+Hola
+ */
