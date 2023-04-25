@@ -18,7 +18,8 @@ public class JvBasicoTemas7_8_9 {
         vectores();
         arrayList();
         arrayListInteger();
-        copiarTexto("C:\\Users\\34660\\IdeaProjects\\Intellij idea\\src\\CursosBootcamp\\JavaBasico\\EjerciciosJavaBasico\\JvBasicoTemas7_8_9\\Documento de texto.txt", "C:\\Users\\34660\\IdeaProjects\\Intellij idea\\src\\CursosBootcamp\\JavaBasico\\EjerciciosJavaBasico\\JvBasicoTemas7_8_9\\Copia Documento de texto.txt");
+        copiarTexto("C:\\Users\\34660\\IdeaProjects\\Intellij idea\\src\\CursosBootcamp\\JavaBasico\\EjerciciosJavaBasico\\JvBasicoTemas7_8_9\\Documento de texto.txt",
+                "C:\\Users\\34660\\IdeaProjects\\Intellij idea\\src\\CursosBootcamp\\JavaBasico\\EjerciciosJavaBasico\\JvBasicoTemas7_8_9\\Copia Documento de texto.txt");
 
 
         Scanner entrada = new Scanner(System.in);
@@ -147,3 +148,51 @@ public class JvBasicoTemas7_8_9 {
     }
 
 }
+/*
+Código ejecutado
+
+hola mundo al revés es:
+odnum aloh
+
+Los valores del array unidimensional son:
+Opel
+Pegaso
+Renault
+
+En el índice 0 el valor es 1
+En el índice 0 el valor es 2
+En el índice 0 el valor es 3
+
+En el índice 1 el valor es 4
+En el índice 1 el valor es 5
+En el índice 1 el valor es 6
+
+En el índice 2 el valor es 7
+En el índice 2 el valor es 8
+En el índice 2 el valor es 9
+
+La matriz es:
+ 1 2 3
+ 4 5 6
+ 7 8 9
+
+Los valores del vector son: [10, 11, 12, 13, 14]
+
+Los valores actuales del vector son: [10, 13, 14]
+
+El saludo es:
+HOLA
+H
+O
+L
+A
+
+Lista entera rellenada: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Lista con los números pares eliminados: [1, 3, 5, 7, 9]
+
+Digita el numerador: 10
+Digita el denominador: 0
+Esto no puede hacerse
+Demo de código
+
+ */
