@@ -1,5 +1,9 @@
 package CursosBootcamp.JavaBasico.EjerciciosJavaBasico.JvBasicoTemas7_8_9;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -14,6 +18,8 @@ public class JvBasicoTemas7_8_9 {
         vectores();
         arrayList();
         arrayListInteger();
+        copiarTexto("C:\\Users\\34660\\IdeaProjects\\Intellij idea\\src\\CursosBootcamp\\JavaBasico\\EjerciciosJavaBasico\\JvBasicoTemas7_8_9\\Documento de texto.txt", "C:\\Users\\34660\\IdeaProjects\\Intellij idea\\src\\CursosBootcamp\\JavaBasico\\EjerciciosJavaBasico\\JvBasicoTemas7_8_9\\Copia Documento de texto.txt");
+
 
         Scanner entrada = new Scanner(System.in);
         System.out.print("\nDigita el numerador: ");
@@ -121,6 +127,23 @@ public class JvBasicoTemas7_8_9 {
             throw new ArithmeticException("Esto no puede hacerse");
         }
         return a / b;
+    }
+    public static void copiarTexto(String fileIn, String fileOut){
+        try {
+            InputStream entrada = new FileInputStream(fileIn);
+            byte[] leerDatos = entrada.readAllBytes();
+            entrada.close();
+
+            PrintStream salida = new PrintStream(fileOut);
+            salida.write(leerDatos);
+            salida.close();
+
+
+        }catch (IOException e){
+            System.out.println("Excepción: " + e.getMessage());
+
+        }
+
     }
 
 }
