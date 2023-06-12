@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades CSS</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!--Link a través de una URL, concretamente de la web PURECSS.IO--> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css">
+    <style>
+        html{
+            padding: 15px;
+        }
+        p {
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <button class="pure-button pure-button-primary">Botón de URL</button>
+    <button>Botón por defecto</button>
+    <!--div copiado de una URL externa, de la website purecss.io-->
+    <div>
+        <style>
+            .button-success,
+            .button-error,
+            .button-warning,
+            .button-secondary {
+                color: white;
+                border-radius: 4px;
+                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+            }
+    
+            .button-success {
+                background: rgb(28, 184, 65);
+                /* this is a green */
+            }
+    
+            .button-error {
+                background: rgb(202, 60, 60);
+                /* this is a maroon */
+            }
+    
+            .button-warning {
+                background: rgb(223, 117, 20);
+                /* this is an orange */
+            }
+    
+            .button-secondary {
+                background: rgb(66, 184, 221);
+                /* this is a light blue */
+            }
+        </style>
+        <button class="button-success pure-button">Success Button</button>
+        <button class="button-error pure-button">Error Button</button>
+        <button class="button-warning pure-button">Warning Button</button>
+        <button class="button-secondary pure-button">Secondary Button</button>
+    </div>
+</body>
+</html>
