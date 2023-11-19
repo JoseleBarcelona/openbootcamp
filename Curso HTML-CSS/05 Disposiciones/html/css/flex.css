@@ -1,0 +1,31 @@
+/*https://codepen.io/enxaneta/full/adLPwv*/
+
+.flex {
+    background-color: aquamarine;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+.contenido1 {
+    background-color: white;
+    /* height: 200px; */
+    width: 100px;
+    border: 1px solid black;
+}
+.contenido2 {
+    background-color: white;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+.contenido3 {
+    background-color: burlywood;
+    height: 200px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+

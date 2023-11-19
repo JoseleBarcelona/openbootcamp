@@ -1,0 +1,13 @@
+.div-1, .div-2{
+    background-color: red;
+}
+.img {
+    width: 50px;
+}
+.span-1 {
+    background-color: blueviolet;
+}
+.span-2 {
+    background-color: aquamarine;
+    float: right
+}
