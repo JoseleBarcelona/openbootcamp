@@ -1,0 +1,14 @@
+.contenedor p, .contenedor h2 {  /*Solo afecta a las p dentro de la clase contenedor*/
+    color: brown;
+}
+
+p, h2 { /*Afecta a todas las p y h2, menos a las que ya tienen definido un atributo dentro de un contenedor (div)*/
+    color: blue;
+}
+
+.contenedor #boton_contenedor {
+    background-color: yellowgreen;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
