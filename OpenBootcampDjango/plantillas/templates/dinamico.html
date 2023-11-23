@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hola {{name}} </h1>
+    <h3>Categorias</h3>
+    <p>Esto es una lista sin recorrer {{categorias}}</p>
+    <ul>
+        {% for category in categorias %}
+            {% if category == 'código' %}
+                <li><b> {{category}} </b></li>
+            {% else  %}
+                <li> {{category}} </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    
+</body>
+</html>
+
