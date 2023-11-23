@@ -1,0 +1,40 @@
+/*Estilos para colores*/
+.colores {
+    color: blue;
+}
+.coloresHexadecimales {
+    color: #8f2d56;
+}
+.coloresRGB {
+    color: rgb(216, 25, 189)
+}
+.coloresRGBA {
+    color: rgba(10, 10, 10, 0.50)
+}
+/*Fondos de colores*/
+.fondo_natural {
+    background-color: #8f2d56;
+}
+.fondo {
+    background-image: url("https://crm.academiaintegral.com.es//uploads/courses/2861/55e5b3502425bf7cfdde9db_ll.jpg");
+}
+.fondo_interno {
+    background-image: url("imagenes/css3.png");
+    background-position: center;
+}
+/*Tamaños*/
+.ancho {
+    background-color: #8f2d56;
+    width: 100px;
+}
+.alto {
+    background-color: cadetblue;
+    height: 200px;
+}
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    border-width: 2px;
+    padding: 10px 20px;
+    margin: 10px 20px;
+}
