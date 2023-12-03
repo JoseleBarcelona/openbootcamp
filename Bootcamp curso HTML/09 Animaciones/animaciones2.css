@@ -1,0 +1,34 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color:aquamarine;
+}
+
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color:chocolate;
+}
+
+.padre:hover .hijo {
+    animation: nombreInventado 2s infinite ease forwards alternate;
+}
+
+@keyframes nombreInventado {
+    0% {
+        transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        transform: translateX(100%) translateY(0%);
+    }
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        transform: translateY(100%) translateX(0%);
+    }
+    100% {
+        transform: translateX(0%) translateY(0%);
+    }
+}
+

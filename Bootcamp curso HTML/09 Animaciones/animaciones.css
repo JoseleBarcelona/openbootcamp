@@ -1,0 +1,42 @@
+.padre {
+    width: 400px;
+    height: 400px;
+    background-color: aquamarine;
+}
+/* .hijo {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    transition: all 1s;
+} */
+/* .hijo {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+    transition: transform 1s ease-in-out 1s; /*El primer segundo indica la duración de la transición, el segundo el retraso antes de trasitar(Delay)
+} */
+.hijo {
+    width: 50%;
+    height: 50%;
+    background-color: aqua;
+}
+.padre:hover .hijo {
+    /* transform: translateX(100%);
+    background-color: bisque; */
+    animation: nombreInventado 3s ease forwards;
+}
+
+@keyframes nombreInventado {
+    0% {
+        background-color: brown;
+        transform: translateX(0%);
+    }
+    50% {
+        background-color: violet;
+        transform: translateX(50%) translateY(100%);
+    }
+    100% {
+        background-color: yellowgreen;
+        transform: translateX(100%);
+    }
+}
